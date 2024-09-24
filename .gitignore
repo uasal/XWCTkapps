@@ -1,0 +1,5 @@
+*vscode/
+build/
+logger/generated/*
+logger/types/generated/*
+*/build/

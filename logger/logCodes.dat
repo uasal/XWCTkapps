@@ -1,0 +1,6 @@
+# Only use codes above 21000
+# The first column represents the name of the corresponding header file (without `.hpp`) in the types folder.
+# The second column is the log code. Choose an unused number (across the core library and every app repo you're including).
+# The third column represents the name of the corresponding flatbuffers file (without `.fbs`) in the types/schemas folder.
+# Typically, the first and third column will have the same entry.
+# <header_filename>                xxxx    <schema_filename>
