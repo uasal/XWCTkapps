@@ -18,4 +18,10 @@ target_link_libraries(templateCtrl PRIVATE
                                     XWCTK::XWCTKall
                                     )
 
-install(TARGETS templateCtrl DESTINATION bin)
+install(TARGETS templateCtrl
+        DESTINATION ${BIN_PATH}
+        PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE
+                    GROUP_READ GROUP_EXECUTE
+                    WORLD_READ WORLD_EXECUTE
+                    SETUID
+        )
